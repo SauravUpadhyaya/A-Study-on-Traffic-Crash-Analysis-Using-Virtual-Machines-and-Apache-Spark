@@ -6,15 +6,18 @@ In this project, I created some major geospatial visualizations obtained from da
 
 <img width="629" height="556" alt="Screenshot 2025-10-18 at 3 43 43 PM" src="https://github.com/user-attachments/assets/c5f674d4-5143-4ed7-a8fa-d8476caaefb6" />
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Example 1: [Total number of crashes happening in each city](https://sauravupadhyaya.github.io/traffic_crashes_visualization/crash_markers.html)
 
-
-  [Vue](https://github.com/vuejs/vue)
   
 <img width="628" height="568" alt="Screenshot 2025-10-18 at 3 38 58 PM" src="https://github.com/user-attachments/assets/8494b15d-afa3-4884-8875-dcdc86fa93fc" />
 
 
 In the above figure, I see the number of crashes happening per city in Chicago.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 Example 2: [Fatal Crashes: Cyclists](https://sauravupadhyaya.github.io/traffic_crashes_visualization/people_fatal_ped_cyc_map.html)
 
@@ -23,7 +26,7 @@ Example 2: [Fatal Crashes: Cyclists](https://sauravupadhyaya.github.io/traffic_c
                                
 In the above figure,  I see the number of blue markers representing the death of the Cyclists.
 
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Example 3: [Fatal Crashes: Pedestrians](https://sauravupadhyaya.github.io/traffic_crashes_visualization/people_fatal_ped_cyc_map.html)
 
@@ -32,6 +35,8 @@ Example 3: [Fatal Crashes: Pedestrians](https://sauravupadhyaya.github.io/traffi
 
 In the above figure, I see the red clusters representing the different cities in Chicago.
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 Example 4: [Fatal Traffic Accidents Analysis](https://sauravupadhyaya.github.io/traffic_crashes_visualization/fatal_policy_map.html)
 
@@ -39,15 +44,17 @@ Example 4: [Fatal Traffic Accidents Analysis](https://sauravupadhyaya.github.io/
 
 In the above figure, I see that the fatal crashes are clustered in certain areas in which age groups and road conditions are key factors.
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 Some other geospatial visualizations obtained from data analysis using PySpark:
 
-[Crashes (top 5 causes)](https://sauravupadhyaya.github.io/traffic_crashes_visualization/crash_top5_causes_map.html)
+1. [Crashes (top 5 causes)](https://sauravupadhyaya.github.io/traffic_crashes_visualization/crash_top5_causes_map.html)
 
-[Visualizing Crashes, Injury, and Fatal](https://sauravupadhyaya.github.io/traffic_crashes_visualization/crash_admin_map.html)
+2. [Visualizing Crashes, Injury, and Fatal](https://sauravupadhyaya.github.io/traffic_crashes_visualization/crash_admin_map.html)
 
-[Crashes (Heatmap)](https://sauravupadhyaya.github.io/traffic_crashes_visualization/crash_heatmap.html)
+3. [Crashes (Heatmap)](https://sauravupadhyaya.github.io/traffic_crashes_visualization/crash_heatmap.html)
 
-[Risk analysis](https://sauravupadhyaya.github.io/traffic_crashes_visualization/risk_map.html)
+4. [Risk analysis](https://sauravupadhyaya.github.io/traffic_crashes_visualization/risk_map.html)
 
-[Vehicles' fatal heavy hit run visualization](https://sauravupadhyaya.github.io/traffic_crashes_visualization/vehicles_fatal_heavy_hitrun_map.html)
+5. [Vehicles' fatal heavy hit run visualization](https://sauravupadhyaya.github.io/traffic_crashes_visualization/vehicles_fatal_heavy_hitrun_map.html)
