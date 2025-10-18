@@ -1,0 +1,6 @@
+crash_id,crash_date,injuries,fatalities,street
+1,2025-09-01,0,0,Main St
+2,2025-09-01,1,0,1st Ave
+3,2025-09-02,0,1,2nd Ave
+4,2025-09-03,2,0,3rd St
+5,2025-09-04,0,0,4th St

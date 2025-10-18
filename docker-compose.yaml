@@ -1,0 +1,66 @@
+version: '3.8'
+
+services:
+  spark-master:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: apache/spark-py
+    #image: my-pyspark-with-tools:latest
+    container_name: spark-master
+    hostname: spark-master
+    ports:
+      - "7077:7077"
+      - "8080:8080"
+    volumes:
+      - /Users/sauravupadhyaya/desktop/fall2025/big_data_course/final_project/traffic_crashes_data:/data
+     # - /Users/sauravupadhyaya/desktop/big_data_project/requirements.txt:/opt/requirements.txt
+      - ../big_data_project:/tmp/spark/work-dir/big_data_project
+      - .:/app
+    command: >
+      bash -c "/opt/spark/bin/spark-class org.apache.spark.deploy.master.Master --host spark-master"
+   
+  spark-worker-1:
+    build:
+      context: .
+      dockerfile: Dockerfile    
+    image: apache/spark-py
+    #image: my-pyspark-with-tools:latest
+    container_name: spark-worker-1
+    hostname: spark-worker-1
+    depends_on:
+      - spark-master
+    ports:
+      - "8081:8081"
+    environment:
+      - SPARK_WORKER_DIR=/tmp/spark/work
+    volumes:
+      - /Users/sauravupadhyaya/desktop/fall2025/big_data_course/final_project/traffic_crashes_data:/data
+      - /tmp/spark/work:/tmp/spark/work
+    #  - /Users/sauravupadhyaya/desktop/big_data_project/requirements.txt:/opt/requirements.txt
+      - .:/app
+    command: >
+      bash -c "/opt/spark/bin/spark-class org.apache.spark.deploy.worker.Worker spark://spark-master:7077"
+      - ../big_data_project:/tmp/spark/work-dir/big_data_project
+
+  spark-worker-2:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: apache/spark-py
+    #image: my-pyspark-with-tools:latest
+    container_name: spark-worker-2
+    hostname: spark-worker-2
+    depends_on:
+      - spark-master
+    environment:
+      - SPARK_WORKER_DIR=/tmp/spark/work
+    volumes:
+      - /Users/sauravupadhyaya/desktop/fall2025/big_data_course/final_project/traffic_crashes_data:/data
+      - /tmp/spark/work:/tmp/spark/work
+    #  - /Users/sauravupadhyaya/desktop/big_data_project/requirements.txt:/opt/requirements.txt
+      - .:/app
+    command: >
+      bash -c "/opt/spark/bin/spark-class org.apache.spark.deploy.worker.Worker spark://spark-master:7077"
+      - ../big_data_project:/tmp/spark/work-dir/big_data_project
+
