@@ -7,16 +7,12 @@ In this project, I created some major geospatial visualizations obtained from da
 
 <img width="629" height="556" alt="Screenshot 2025-10-18 at 3 43 43 PM" src="https://github.com/user-attachments/assets/c5f674d4-5143-4ed7-a8fa-d8476caaefb6" />
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
  [Total number of crashes happening in each city] (https://sauravupadhyaya.github.io/traffic_crashes_visualization/crash_markers.html)
 
 <img width="628" height="568" alt="Screenshot 2025-10-18 at 3 38 58 PM" src="https://github.com/user-attachments/assets/8494b15d-afa3-4884-8875-dcdc86fa93fc" />
 
 
 In the above figure, I see the number of crashes happening per city in Chicago.
-
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Example 2: [Fatal Crashes: Cyclists] (https://sauravupadhyaya.github.io/traffic_crashes_visualization/people_fatal_ped_cyc_map.html)
 
@@ -26,7 +22,6 @@ Example 2: [Fatal Crashes: Cyclists] (https://sauravupadhyaya.github.io/traffic_
 In the above figure,  I see the number of blue markers representing the death of the Cyclists.
 
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Example 3: [Fatal Crashes: Pedestrians] (https://sauravupadhyaya.github.io/traffic_crashes_visualization/people_fatal_ped_cyc_map.html)
 
@@ -35,16 +30,12 @@ Example 3: [Fatal Crashes: Pedestrians] (https://sauravupadhyaya.github.io/traff
 
 In the above figure, I see the red clusters representing the different cities in Chicago.
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 
 Example 4: [Fatal Traffic Accidents Analysis] (https://sauravupadhyaya.github.io/traffic_crashes_visualization/fatal_policy_map.html)
 
 <img width="614" height="346" alt="Screenshot 2025-10-08 at 8 43 05 PM" src="https://github.com/user-attachments/assets/0100c9e4-b008-4095-9f56-ab72e5174093" />
 
 In the above figure, I see that the fatal crashes are clustered in certain areas in which age groups and road conditions are key factors.
-
-
 
 
 Some other geospatial visualizations obtained from data analysis using PySpark:
