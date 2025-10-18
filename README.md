@@ -28,15 +28,18 @@ In the above figure, I see the number of crashes happening per city in Chicago.
 
 
 Example 2: Fatal Crashes: Cyclists (link)
+
+<img width="463" height="312" alt="Screenshot 2025-10-08 at 9 28 51 PM" src="https://github.com/user-attachments/assets/6db4ce50-bbc5-4e91-b466-5eeb85fe826d" />
+
                                
                                            Figure 8. Fatal crashes: Cyclists
 In the above figure,  I see the number of blue markers representing the death of the Cyclists.
 
 Example 3: Fatal Crashes: Pedestrians (link)
 
-<img width="463" height="312" alt="Screenshot 2025-10-08 at 9 28 51 PM" src="https://github.com/user-attachments/assets/6db4ce50-bbc5-4e91-b466-5eeb85fe826d" />
 
-                
+<img width="351" height="325" alt="image" src="https://github.com/user-attachments/assets/fe43675b-a7ed-403f-8434-9b9b5d905b1d" />
+
                            Figure 9. Fatal Crashes: Pedestrians
 
 In the above figure, I see the red clusters representing the different cities in Chicago.
