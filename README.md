@@ -48,8 +48,13 @@ In the above figure, I see that the fatal crashes are clustered in certain areas
 
 
 Some other geospatial visualizations obtained from data analysis using PySpark:
+
 [Crashes (top 5 causes)] (https://sauravupadhyaya.github.io/traffic_crashes_visualization/crash_top5_causes_map.html)
+
 [Visualizing Crashes, Injury, and Fatal] (https://sauravupadhyaya.github.io/traffic_crashes_visualization/crash_admin_map.html)
+
 [Crashes (Heatmap)] (https://sauravupadhyaya.github.io/traffic_crashes_visualization/crash_heatmap.html)
+
 [Risk analysis] (https://sauravupadhyaya.github.io/traffic_crashes_visualization/risk_map.html)
+
 [Vehicles' fatal heavy hit run visualization] (https://sauravupadhyaya.github.io/traffic_crashes_visualization/vehicles_fatal_heavy_hitrun_map.html)
