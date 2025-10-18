@@ -6,8 +6,10 @@ In this project, I created some major geospatial visualizations obtained from da
 
 <img width="629" height="556" alt="Screenshot 2025-10-18 at 3 43 43 PM" src="https://github.com/user-attachments/assets/c5f674d4-5143-4ed7-a8fa-d8476caaefb6" />
 
- [Total number of crashes happening in each city] (#https://sauravupadhyaya.github.io/traffic_crashes_visualization/crash_markers.html)
+ [Total number of crashes happening in each city]
 
+ [Total number of crashes happening in each city] : https://sauravupadhyaya.github.io/traffic_crashes_visualization/crash_markers.html
+  [Total number of crashes happening in each city] : (https://sauravupadhyaya.github.io/traffic_crashes_visualization/crash_markers.html)
 <img width="628" height="568" alt="Screenshot 2025-10-18 at 3 38 58 PM" src="https://github.com/user-attachments/assets/8494b15d-afa3-4884-8875-dcdc86fa93fc" />
 
 
