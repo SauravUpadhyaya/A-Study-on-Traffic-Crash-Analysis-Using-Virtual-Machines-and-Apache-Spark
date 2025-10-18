@@ -4,6 +4,7 @@ Chicago is considered one of the congested cities in the United States, with a p
 
 In this project, I created some major geospatial visualizations obtained from data analysis using PySpark in Chicago Traffic Crashes (crashes, people, vehicles, and zero vision fatalities) dataset. In my application, I have used the “apache-spark” image (link) for managing one master and two workers. This is done to simplify dependency management and ensure a consistent runtime environment across all nodes. 1 Spark Master and 2 Spark Workers are the core components in my Docker containers.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <img width="629" height="556" alt="Screenshot 2025-10-18 at 3 43 43 PM" src="https://github.com/user-attachments/assets/c5f674d4-5143-4ed7-a8fa-d8476caaefb6" />
 
@@ -15,7 +16,7 @@ Example 1: Total number of crashes happening in each city
 
 In the above figure, I see the number of crashes happening per city in Chicago.
 
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Example 2: Fatal Crashes: Cyclists
 
@@ -25,7 +26,7 @@ Example 2: Fatal Crashes: Cyclists
 In the above figure,  I see the number of blue markers representing the death of the Cyclists.
 
 
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Example 3: Fatal Crashes: Pedestrians
 
@@ -34,7 +35,7 @@ Example 3: Fatal Crashes: Pedestrians
 
 In the above figure, I see the red clusters representing the different cities in Chicago.
 
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 Example 4: Fatal Traffic Accidents Analysis
