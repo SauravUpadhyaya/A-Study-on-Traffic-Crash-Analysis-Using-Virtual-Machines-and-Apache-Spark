@@ -8,6 +8,11 @@ In this project, I created some major geospatial visualizations obtained from da
 <img width="629" height="556" alt="Screenshot 2025-10-18 at 3 43 43 PM" src="https://github.com/user-attachments/assets/c5f674d4-5143-4ed7-a8fa-d8476caaefb6" />
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Poster
+
+<img width="791" height="808" alt="image" src="https://github.com/user-attachments/assets/2696419a-de6c-49b8-9b30-c6a2d570c7a1" />
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Example 1: [Total number of crashes happening in each city](https://sauravupadhyaya.github.io/traffic_crashes_visualization/crash_markers.html)
 
